@@ -20,7 +20,7 @@ import cairo
 import hashlib
 from collections import OrderedDict
 from datetime import datetime
-from . import my_classes as mc
+import my_classes as mc
 from pathlib import Path
 from snapgene_reader import snapgene_file_to_dict, snapgene_file_to_seqrecord
 from scipy.cluster.hierarchy import linkage, leaves_list
